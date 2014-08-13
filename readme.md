@@ -1,17 +1,72 @@
+Gneiss
+======
+
 Introdução
-==========
+----------
 
-<Claudio>
-Aqui vc deve falar 1 paragrafo ou dois sobre cada:
-1) Sobre redes de sensores sem fio
-2) Como eh ainda eh caro adquirir motes e isso eh o problema
-3) Existem ambientes de simulacao
-4) Destacar a plataforma sun spot e o solarium
-5) falar que ele eh instavel 
-6) gancho pra o gneiss (de onde saiu esse nome)
+* [Redes de Sensores Sem Fio](rssf.md)
+* [Monitoramento](monitoramento.md)
+* [Trabalhos Relacionados](relacionados.md)
 
+Objetivos
+---------
 
-</claudio>
+Conceito
+--------
+
+Processo contínuo e cíclico contendo as etapas:
+
+### Ponto de vista Matemático
+
+#### Identificação de Hipótese
+#### Coleta dos dados
+#### Teste da Hipótese
+#### Aperfeiçoamento
+
+### Ponto de vista tecnológico
+
+#### Extração de dados sensoriais
+#### Manipulação e Persistência
+#### Visualização Gráfica
+
+Implementação
+-------------
+
+### Node Gneiss
+### Java Gneiss
+### Java Gneiss Test
+### Sunspot Simple
+
+Utilização
+----------
+
+### Instalação
+### Configuração
+### Tutorial
+### Extensão
+
+Testes
+------
+
+### Rossan
+### De terceiros
+
+Apêndice
+--------
+
+### Ferramentas Utilizadas
+
+#### MongoDB
+#### Node.js
+#### Gráficos
+
+### Protocolos Utilizados
+
+#### Http
+#### Json
+
+Versão antiga Abaixo
+====================
 
 *Gneiss* é um gerenciador de emulações de *Redes de Sensores Sem Fio (RSSF)*
 que utiliza a plataforma SunSPOT de dispositivos da Oracle. Ele foi criado
@@ -25,12 +80,7 @@ seguintes características:
 Objetivos
 =========
 
-A necessidade de um projeto com essas capacidades é gigantesca.
-
-<Claudio>
-Nunca use adjetivos como gigantesco e afins, nao fica bom em trabalhos cientificos
-</Claudio>
- Devido a baixa
+A necessidade de um projeto com essas capacidades é alta. Devido a baixa
 oferta de SunSPOTs, todas as análises de larga escala precisam de emulações. A
 dificuldade de exercitar modelos de *RSSF* em larga escala de forma automática
 atrasa o aprimoramento das soluções. Ao contrário, a simplicidade e agilidade
@@ -121,10 +171,5 @@ serão consultados para esclarecer hipoteses imaginadas no início do processo.
 Vamos precisar de uma forma de testar o seu projeto final. Isso vai ser importante pois 
 vai permitir que verifiquemos o quao bom eh o Gneiss. O ideal seria vc usar aquele algoritmo de roteamento
 que vc implementou com diferentes numeros de nodes e vamos verificar quantas vezes conseguimos realizar a simulacao de forma bem sucedida.
-
-
-
-
-
 
 </Claudio>

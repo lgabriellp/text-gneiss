@@ -1,17 +1,13 @@
-Gneiss
-======
+Referências de RSSF com Monitoramento
+=====================================
 
-Gneiss é um sistema de monitoramento projetado especialmente para redes de
-sensores sem fio. 
-
-Introdução
-----------
-
-1. Octopus
+Octopus
+-------
 
 Texto no papel
 
-2. Gigascope
+Gigascope
+---------
 
 Gigascope [1] é um mecanismo de consulta SQL que visa monitorar pacotes
 recebidos diretamente nas interfaces de rede, proporcionando um uma visão
@@ -28,7 +24,8 @@ complexidade dos dados, relacionar os valores e agrega-los. Este processo
 pode levar a enganos que poderão levar a análises incorretas ou sem a devida
 precisão. 
 
-3. Monitoring Distributed Systems Article
+Monitoring Distributed Systems Article
+--------------------------------------
 
 Definição: Um objeto administrado [6] é um objeto cujo comportamento pode ser
 controlado por um sistema administrativo e deve ter dois tipos de interface. A
