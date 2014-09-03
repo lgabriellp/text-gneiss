@@ -24,6 +24,10 @@ complexidade dos dados, relacionar os valores e agrega-los. Este processo
 pode levar a enganos que poderão levar a análises incorretas ou sem a devida
 precisão. 
 
+Ao ler o parágrafo, percebi que as informações foram transmitidas de forma sucinta. Sugiro que estas informações sejam aprofundadas. As duas primeiras frases podem iniciar os primeiros parágrafos. Nesta parte as características e benefícios da ferramenta  GIGASCOPE serão melhor descritas. No parágrafo seguinte você poderia apresentar as outras ferramentas, caracterizando-as (pois me parece que há algumas diferenças na aplicação delas). Neste momento você também pode apresentar os aspectos negativos do uso de cada uma (como já foi mostrado). 
+
+Verifiquei também que há uma numeração em cada sigla, exceto na SQL. Imagino que seja um termo mais comum, mas acho que poderia ser minimamente explicado. 
+
 Monitoring Distributed Systems Article
 --------------------------------------
 
