@@ -51,6 +51,10 @@ Eventos de nível interno são úteis para fins de depuração (meio óbvio).
 Segundo [6], o nível externo é o nível correto para monitoramento de sistemas
 distribuídos.
 
+Fiquei um pouco confusa quanto ao uso do termo “objeto”. O primeiro termo é a tradução do título?  Ele dá suporte a si mesmo? É o que parece quando a palavra foi empregada pela segunda vez. O termo “objeto” foi usado três vezes no primeiro parágrafo. Em todos os casos parecem se referir a elementos distintos. Há outro termo (ou um termo suporte) que possa ser usado para anular possíveis dificuldades de interpretação?
+No segundo parágrafo o “objeto” começou a ser descrito. Talvez seja necessário que se estabeleça critérios para descrever este termo. Acho q seria importante pensar se há uma informação mais geral que “status” e “evento” para ser inserido antes destas informações. Assim o leitor estaria mais familiarizado com o assunto (objeto). A partir de então os itens apresentados (status e evento) poderiam ser descritos com mais profundidade. 
+
+
 Referências
 -----------
 
