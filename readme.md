@@ -4,6 +4,41 @@ Gneiss (revisar)
 Introdução
 ----------
 
+### Redes de Sensores Sem Fio
+
+Definição retirada de [Wireless Sensor Networks Survey][1].
+
+São compostas por dezenas a milhares de nós sensores capazes de sendir, medir e
+coletar informações sobre o ambiente e baseado em algum processo de decisão, transmitir
+essas informações ao usuário final.
+
+Os nós que compõem uma rede de sensores sem fio são dispositivos de baixa potência
+com um ou mais sensores, um processador, memória, uma fonte de energia, um rádio e
+possivelmente um atuador.
+
+Os sensores podem ser natureza variada: mecânicas, termais, biológicas, químicas,
+óticas e mágnéticas, e podem ser acopladas conforme a característica das medidas
+a serem coletadas.
+
+Como as *RSSF* podem ser implantadas em terrenos de difícil acesso e possuem pouca
+memória, a comunicação por rádio é necessária para que os dadas alcancem uma estação
+base. Por sua vez, a estação base irá exibir ao usuário da RSSF os dados coletados.
+
+A bateria é a fonte principal de energia para os nós. Apesar disso, outras fontes
+podem ser acopladas. Fontes como paineis solares.
+
+As aplicações podem ser as mais variadas. Detecção de intrusos em áreas militares,
+monitoramento de condições climáticas e geológicas, acompanhamendo da produção industrial
+e monitoramento de animais em seu habtat são alguns exemplos.
+
+Diferentemente das redes de computadores tradicionais, as *RSSF* tem seus próprios
+fatores limitantes. Restrições como limitada oferta de energia, baixa amplitude de
+comunicação, pequena largura de banda e limitada capacidade de armazenamento faz com
+que a aplicação desejada e o ambiente de implantação tenham papel fundamental em
+decisões de projeto tais como tamanho da rede, forma de implantação e topologia.
+
+[1](1-s2.0-S1389128608001254-main.pdf)
+
 * [Redes de Sensores Sem Fio](rssf.md)
 * [Monitoramento](monitoramento.md)
 * [Trabalhos Relacionados](relacionados.md)
