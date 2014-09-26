@@ -46,6 +46,21 @@ decisões de projeto tais como tamanho da rede, forma de implantação e topolog
 Objetivos
 ---------
 
+1. Simplificar o estudo de redes de sensores sem fio:
+
+2. Limitar a dependência de dispositivos reais:
+    A complexidade comercial e custos elevados impostos na importação dos dispositívos
+necessários (Aqui um comentário do Claudio) alargam o tempo desde a primeira iniciativa
+de compra até o dispositivo chegar a mão do pesquisador. Esta complexidade amplia o risco
+da aquisição de dispositivos que não correspondem ao potencial esperado nas aplicações
+envolvidas, aumenta a defasagem dos dispositivos utilizados em relação ao mercado e retarda
+pesquisas que necessitam de maior número de dispositivos pois novas remessas precisariam
+de mais tempo ainda para serem concretizadas.
+
+3. Entender melhor os dados gerados nos experimentos:
+
+4. Agilizar conclusões e a transferência de conhecimento:
+
 Conceito
 --------
 
