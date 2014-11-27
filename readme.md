@@ -8,34 +8,28 @@ Introdução
 
 Definição retirada de [Wireless Sensor Networks Survey][1].
 
-São compostas por dezenas a milhares de nós sensores capazes de sendir, medir e
-coletar informações sobre o ambiente e baseado em algum processo de decisão, transmitir
-essas informações ao usuário final.
+São compostas por (dezenas de milhares) de nós sensores capazes de sendir (estou com dúvidas quanto a esta palavra, pois não encontrei seu significado), medir e coletar informações sobre o ambiente e, baseado em um processo de decisão, transmitir essas informações ao usuário final.
 
 Os nós que compõem uma rede de sensores sem fio são dispositivos de baixa potência
 com um ou mais sensores, um processador, memória, uma fonte de energia, um rádio e
 possivelmente um atuador.
 
-Os sensores podem ser natureza variada: mecânicas, termais, biológicas, químicas,
-óticas e mágnéticas, e podem ser acopladas conforme a característica das medidas
-a serem coletadas.
+Os sensores podem ser de natureza variada: mecânicas, termais, biológicas, químicas, óticas e mágnéticas, e podem ser (acoplados conforme as características das medidas que serão coletadas).
 
 Como as *RSSF* podem ser implantadas em terrenos de difícil acesso e possuem pouca
-memória, a comunicação por rádio é necessária para que os dadas alcancem uma estação
-base. Por sua vez, a estação base irá exibir ao usuário da RSSF os dados coletados.
+memória, a comunicação por rádio é necessária para que os dados alcancem uma estação
+base. Por sua vez, a estação base irá mostrar ao usuário da RSSF os dados coletados.
 
 A bateria é a fonte principal de energia para os nós. Apesar disso, outras fontes
-podem ser acopladas. Fontes como paineis solares.
+podem ser acopladas. Fontes como paineis solares (há mais tipos de fontes para exemplificar?).
 
 As aplicações podem ser as mais variadas. Detecção de intrusos em áreas militares,
-monitoramento de condições climáticas e geológicas, acompanhamendo da produção industrial
-e monitoramento de animais em seu habtat são alguns exemplos.
+monitoramento de condições climáticas e geológicas, acompanhamento da produção industrial
+e monitoramento de animais em seu habitat são alguns exemplos.
 
-Diferentemente das redes de computadores tradicionais, as *RSSF* tem seus próprios
-fatores limitantes. Restrições como limitada oferta de energia, baixa amplitude de
-comunicação, pequena largura de banda e limitada capacidade de armazenamento faz com
-que a aplicação desejada e o ambiente de implantação tenham papel fundamental em
-decisões de projeto tais como tamanho da rede, forma de implantação e topologia.
+Diferentemente das redes de computadores tradicionais, as RSSF têm seus próprios fatores limitantes, tais como: baixa amplitude de comunicação, pequena largura de banda, limitada oferta de energia e  limitada capacidade de armazenamento. Estas restrições fazem com que a aplicação desejada e o ambiente de implantação tenham papel fundamental em decisões de projeto tais como tamanho da rede, forma de implantação e topologia. (Modifiquei a pontuação do parágrafo e a ordem de algumas informações, alterando a mensagem) 
+
+(Esta parte é composta de parágrafos curtos que caracterizam o equipamento. Acho que você poderia incluir mais características. Além disso, pode separar parágrafos sobre a composição do equipamento e, em seguida, formar outros sobre o funcionamento.)
 
 [1](1-s2.0-S1389128608001254-main.pdf)
 
@@ -48,14 +42,7 @@ Objetivos
 
 1. Simplificar o estudo de redes de sensores sem fio:
 
-2. Limitar a dependência de dispositivos reais:
-    A complexidade comercial e custos elevados impostos na importação dos dispositívos
-necessários (Aqui um comentário do Claudio) alargam o tempo desde a primeira iniciativa
-de compra até o dispositivo chegar a mão do pesquisador. Esta complexidade amplia o risco
-da aquisição de dispositivos que não correspondem ao potencial esperado nas aplicações
-envolvidas, aumenta a defasagem dos dispositivos utilizados em relação ao mercado e retarda
-pesquisas que necessitam de maior número de dispositivos pois novas remessas precisariam
-de mais tempo ainda para serem concretizadas.
+2.	Limitar a dependência de dispositivos reais: A complexidade comercial e custos elevados impostos na importação dos dispositívos necessários (Aqui um comentário do Claudio) (( alargam o tempo desde a compra até  a chegada do produto.)) Esta complexidade amplia o risco da aquisição de dispositivos que não correspondem ao potencial esperado nas aplicações envolvidas, aumenta a defasagem dos dispositivos utilizados em relação ao mercado e retarda pesquisas que necessitam de maior número de dispositivos, pois novas remessas precisariam de mais tempo ainda para serem produzidas. (que dispositivos seriam estes?)
 
 3. Entender melhor os dados gerados nos experimentos:
 
@@ -130,12 +117,7 @@ seguintes características:
 Objetivos
 =========
 
-A necessidade de um projeto com essas capacidades é alta. Devido a baixa
-oferta de SunSPOTs, todas as análises de larga escala precisam de emulações. A
-dificuldade de exercitar modelos de *RSSF* em larga escala de forma automática
-atrasa o aprimoramento das soluções. Ao contrário, a simplicidade e agilidade
-experimentação, encurta o ciclo de desenvolvimento e a consequente solidez
-estatística dos resultados.  
+A necessidade de um projeto com essas capacidades é alta. Devido a baixa oferta de SunSPOTs, todas as análises de larga escala precisam de emulações. A dificuldade de exercitar modelos de *RSSF* em larga escala de forma automática atrasa o aprimoramento das soluções. Ao contrário, a (simplicidade e agilidade da experimentação encurtam ) o ciclo de desenvolvimento e a consequente solidez estatística dos resultados.
 
 **Falar Bem do *Solarium*.**  
 
@@ -144,28 +126,12 @@ Nao precisa falar bem, fale a verdade. Diga que prototipar o sun spot eh rapido 
 mas que o solarium eh instavel e por isso o projeto final
 </Claudio>
 
-Quando analisamos o emulador fornecido pela *Oracle* para a plataforma SunSPOT,
-o *Solarium*, descobre-se que ele ainda é uma ferramenta carente de funcionalidades.
-Os casos de uso para os quais o *Solarium* foi construido, não preveem muita variação
-nos tipos de nós. Para cada variação de spot em uma emulação, é necessário criar um
-novo diretório, com código e configuração específicos, além de incluir seu path na
-configuração da respectiva emulação.
-O *Solarium* também é um programa com interface gráfica. Ele toma a frente das outras
-janelas frequentemente impedindo que seu usuário faça outras atividades durante as
-longas rodadas de emulação.
-Cada construção de nó é demorada e repetitiva. O usuário deve observar atentamente
-ao processo para identificar possíveis erros de configuração, compilação ou execução.
-A sincronização entre nós também não é perfeita. Na troca de mensagens de um nó para
-outro não é garantido que o momento de escrita de um seja imediatamente seguida pela
-leitura do outro. É comum observar *starvation*, gerando inconsistência no comportamento
-esperado.
-Para analisar o comportamento dos nós, é necessário fazer a leitura dos logs de todos
-os nós que são expostos na saída padrão do emulador.  
+Quando analisamos o emulador fornecido pela Oracle para a plataforma SunSPOT, o Solarium, descobrimos que ele ainda era uma ferramenta carente de funcionalidades. Os casos de uso para os quais o Solarium foi construido, não previam muitas variações nos tipos de nós. Para cada variação de spot em uma emulação seria necessário criar um novo diretório, com código e configuração específicos, além de incluir seu path na configuração da respectiva emulação.( O Solarium também é um programa com interface gráfica. )Ele toma a frente das outras janelas frequentemente impedindo que seu usuário faça outras atividades durante as longas rodadas de emulação. Cada construção de nó é demorada e repetitiva. O usuário deve observar atentamente o processo para identificar possíveis erros de configuração, compilação ou execução. )A sincronização entre nós também não é perfeita.) Na troca de mensagens de um nó para outro não é garantido que o momento de escrita de um seja imediatamente seguida pela leitura do outro. É comum observar starvation (vi o significado literal desta palavra, mas não consegui compreender muito bem seu significado técnico), gerando inconsistência no comportamento esperado. Para analisar o comportamento dos nós, é necessário fazer a leitura dos logs de todos os nós que são expostos na saída padrão do emulador. (Nesta parte você pode enumerar os problemas usando palavras como “primeiro, segundo,...” ou pode usar conectivos diferentes do termo “também” )
 
 Dadas essas circunstâncias, em um ambiente com (1, 2, 3), um emulador baseado no *Solarium*
 deve cumprir os seguintes requisitos:
 
-* Configuração automática de um ambiente heterogênio com a escala desejada;
+* Configuração automática de um ambiente heterogêneo com a escala desejada;
 * Execução de rodadas de emulação por linha de comando;
 * Notificação e tratamento imediato de erros, com possível reinício da rodada;
 * Dificultar o *starvation*;
@@ -200,10 +166,10 @@ as informações vão ser coletadas.
 Emulação
 --------
 
-A Emulação é onde se define os parâmetros das rodadas, como por exemplo o tipo e o número de
+A Emulação é onde se definem os  parâmetros das rodadas, como por exemplo o tipo e o número de
 cada aplicação na emulação, a área onde os nós serão espalhados, a frequência com que os nós
 se comunicam. Uma instância de Emulation é que pode ser executada, iniciando rodadas, fazendo
-análises preliminares, tais quais critério de parada, critério para erro ou inconsistências.
+análises preliminares, tais quais critério de parada, critério para erro ou inconsistências. (Não consegui perceber a ligação entre a primeira frase e a segunda. Parece que a segunda estáintroduzindo outro assunto)
 
 **Exemplo de código:**
 
